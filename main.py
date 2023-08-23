@@ -31,11 +31,9 @@ def restart_timer():
 def start_timer():
     """starts the count down"""
     global reps
-    # work_sec = WORK_MIN * 60
-    work_sec = 5
-    # short_break_sec = SHORT_BREAK_MIN * 60
+    work_sec = WORK_MIN * 60
+    short_break_sec = SHORT_BREAK_MIN * 60
     short_break_sec = 2
-    long_break_sec = LONG_BREAK_MIN * 60
     reps += 1
 
     work_reps = [1, 3, 5, 7]
